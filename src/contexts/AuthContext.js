@@ -110,7 +110,7 @@ export function AuthProvider({ children }) {
             });
           //+ add default message
           const addMessage = () => {
-            firestore
+            /*firestore
               .collection('users')
               .doc(currentUser.uid)
               .collection('messages')
@@ -125,7 +125,7 @@ export function AuthProvider({ children }) {
                 ],
                 time: currentTime,
                 user: 'CxwxMiUZqcSao0RwlZgF',
-              });
+              });*/
           };
           //+ update my followers
           const addFollower = () => {

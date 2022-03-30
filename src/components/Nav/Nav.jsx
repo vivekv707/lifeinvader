@@ -155,9 +155,9 @@ const Nav = () => {
                <IoHomeOutline className={Styles.icon + ' ' + Styles.home} />
               </NavLink>
               
-              {//<NavLink exact to={userProfile ? '/messages' : '/sign-up'}>
-               //<IoChatbubbleOutline className={Styles.icon + ' ' + Styles.chat} />
-              //</NavLink>
+              {<NavLink exact to={userProfile ? '/messages' : '/sign-up'}>
+               <IoChatbubbleOutline className={Styles.icon + ' ' + Styles.chat} />
+              </NavLink>
               }
               <IoAddCircleOutline onClick={getModal} className={Styles.icon + ' ' + Styles.add} />
               {/*//+ notifications */}

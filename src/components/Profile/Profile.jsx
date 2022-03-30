@@ -160,7 +160,8 @@ const Profile = (props) => {
                   currentProfile={currentProfile}
                   getUserObject={getUserObject}
                 />
-                {actionButton}
+                {/*--actionButton--*/}
+                {/*/close {"actionButton"} to get button back--*/}
               </div>
               {renderModal && <ProfileUpload setNewPost={setNewPost} getModal={getModal} />}
             </div>

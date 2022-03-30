@@ -45,6 +45,7 @@
 }
 
 .container {
+  background-color: var(--secondary-background-color);
   display: flex;
   box-shadow: 0px 0px 1em 1px rgba(0, 0, 0, 0.103);
   overflow: hidden;

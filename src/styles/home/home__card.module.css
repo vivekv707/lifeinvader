@@ -12,6 +12,7 @@
 
 /*@ Contain main overflow */
 .container {
+  
   position: absolute;
   width: inherit;
   height: inherit;
@@ -22,6 +23,7 @@
 /*+ card top and profile picture */
 
 .header {
+  background-color: var(--secondary-background-color);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -30,7 +32,7 @@
   width: 100%;
   box-sizing: border-box;
   height: 56px;
-  background-color: var(--primary-background-color);
+   /*--background-color: var(--primary-background-color);--*/
   padding: 1.5em;
 }
 
@@ -116,11 +118,12 @@
 
 /*+ card__footer */
 .footer {
+  background-color: var(--secondary-background-color);
   position: relative;
   width: 100%;
   height: 200px;
   padding: 16px 1.25em;
-  background-color: var(--primary-background-color);
+  /*--background-color: var(--primary-background-color);--*/
   z-index: 3;
   bottom: 0;
   box-sizing: border-box;
