@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/lifeinvader/static/css/main.bcb1baa4.css",
-    "main.js": "/lifeinvader/static/js/main.09083110.js",
+    "main.js": "/lifeinvader/static/js/main.0c33a6b0.js",
     "static/js/787.092678bf.chunk.js": "/lifeinvader/static/js/787.092678bf.chunk.js",
     "static/media/blur.jpg": "/lifeinvader/static/media/blur.76c967a91794448b7715.jpg",
     "static/media/logo-03.webp": "/lifeinvader/static/media/logo-03.30385894e23480ca1571.webp",
     "static/media/logo-04.svg": "/lifeinvader/static/media/logo-04.294fb622ebe76c2fe65d750d96c63ca3.svg",
     "index.html": "/lifeinvader/index.html",
     "main.bcb1baa4.css.map": "/lifeinvader/static/css/main.bcb1baa4.css.map",
-    "main.09083110.js.map": "/lifeinvader/static/js/main.09083110.js.map",
+    "main.0c33a6b0.js.map": "/lifeinvader/static/js/main.0c33a6b0.js.map",
     "787.092678bf.chunk.js.map": "/lifeinvader/static/js/787.092678bf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bcb1baa4.css",
-    "static/js/main.09083110.js"
+    "static/js/main.0c33a6b0.js"
   ]
 }
