@@ -44,12 +44,12 @@ const HomeFeed = ({ newPost }) => {
         .limit(5)
         .get();
     } else if (type === 'none') {
-      const me = await firestore.collection('users').doc('CxwxMiUZqcSao0RwlZgF').get();
+      const me = await firestore.collection('users').doc('otCUufb9ukYZlSN6JoJ2fV6R49J2').get();
       following.push(me.data());
       // get people i follow
       userRef = await firestore
         .collection('users')
-        .where('followers', 'array-contains', 'CxwxMiUZqcSao0RwlZgF')
+        .where('followers', 'array-contains', 'otCUufb9ukYZlSN6JoJ2fV6R49J2')
         .orderBy('lastPostDate', 'desc')
         .limit(10)
         .get();

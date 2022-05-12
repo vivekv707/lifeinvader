@@ -41,7 +41,7 @@
 }
 
 .headerText {
-  color: rgb(104, 104, 104);
+  color: white;
   cursor: default;
 }
 
@@ -74,7 +74,7 @@
   align-items: center;
   padding: 0 8px;
   height: 80%;
-  color: gray;
+  color: black;
   border-right: var(--secondary-border);
 }
 

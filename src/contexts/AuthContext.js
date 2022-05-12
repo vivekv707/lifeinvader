@@ -100,7 +100,7 @@ export function AuthProvider({ children }) {
               likedPosts: [],
               postsCounter: 0,
               followers: [],
-              following: ['CxwxMiUZqcSao0RwlZgF'],
+              following: ['otCUufb9ukYZlSN6JoJ2fV6R49J2'],
               messagesCounter: 0,
               notifications: [],
               theme: 'light',
@@ -110,26 +110,26 @@ export function AuthProvider({ children }) {
             });
           //+ add default message
           const addMessage = () => {
-            /*firestore
+            firestore
               .collection('users')
               .doc(currentUser.uid)
               .collection('messages')
-              .doc('CxwxMiUZqcSao0RwlZgF')
+              .doc('otCUufb9ukYZlSN6JoJ2fV6R49J2')
               .set({
                 messages: [
                   {
-                    message: `Hi ${currentUser.displayName}, Thanks for signing up and testing my project. Please look around and test all the features you can. You can reply to this message if you'd like, but I might not see it. So, to get in touch please email me at joshnwarren@gmail.com.`,
+                    message: `Hi ${currentUser.displayName}, Thanks for signing up and testing our project. Please look around and test all the features you can. You can reply to this message if you'd like, but we might not see it. So, to get in touch please contact us at KJSCE made by Ali,Vivek,Umesh`,
                     time: currentTime,
-                    user: 'CxwxMiUZqcSao0RwlZgF',
+                    user: 'otCUufb9ukYZlSN6JoJ2fV6R49J2',
                   },
                 ],
                 time: currentTime,
-                user: 'CxwxMiUZqcSao0RwlZgF',
-              });*/
+                user: 'otCUufb9ukYZlSN6JoJ2fV6R49J2',
+              });
           };
           //+ update my followers
           const addFollower = () => {
-            const userRef = firestore.collection('users').doc('CxwxMiUZqcSao0RwlZgF');
+            const userRef = firestore.collection('users').doc('otCUufb9ukYZlSN6JoJ2fV6R49J2');
             userRef.update({
               followers: firestoreFieldValue.arrayUnion(currentUser.uid),
             });
@@ -137,7 +137,7 @@ export function AuthProvider({ children }) {
 
           //+ notify me
           const notify = () => {
-            const userRef = firestore.collection('users').doc('CxwxMiUZqcSao0RwlZgF');
+            const userRef = firestore.collection('users').doc('otCUufb9ukYZlSN6JoJ2fV6R49J2');
             userRef.update({
               notifications: firestoreFieldValue.arrayUnion({
                 user: currentUser.uid,

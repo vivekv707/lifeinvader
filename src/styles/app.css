@@ -1,6 +1,6 @@
 :root {
   --primary-font-color: rgb(0, 0, 0);
-  --secondary-font-color: rgb(136, 136, 136);
+  --secondary-font-color: darkred;
   --nav-background-color: rgba(255, 255, 255, 0.733);
   --primary-transparent-color: rgba(255, 255, 255, 0.98);
   --user-menu-font-color: rgb(0, 0, 0);
@@ -9,7 +9,7 @@
   --primary-background-color: #F08080;
   --secondary-background-color: whitesmoke;
   --primary-border: 1px solid rgba(41, 41, 41, 0);
-  --secondary-border: 1px solid rgb(206, 206, 206);
+  --secondary-border: 1px solid black;
   --loading-gradient: linear-gradient(to right, #ffffff, #c2c2c2);
   --messages-sidebar-background: rgba(255, 255, 255, 0.87);
   --messages-bubble-background: #d3d3d3;
